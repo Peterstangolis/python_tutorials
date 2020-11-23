@@ -15,7 +15,7 @@ with open('random_nums.csv', 'w') as csv_file:
 
 while True:
 
-    with open('data.csv', 'a') as csv_file:
+    with open('random_nums.csv', 'a') as csv_file:
         csv_writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
 
         info = {
